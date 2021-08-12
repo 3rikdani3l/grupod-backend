@@ -1,0 +1,4 @@
+com\cobiscorp\cobis\fctrc\bli\services\impl\BLI9307_bli_listarclientes.class
+com\cobiscorp\cobis\fctrc\bli\services\impl\BLI5567_bli_eliminarcliente.class
+com\cobiscorp\cobis\fctrc\bli\services\impl\BLI3200_bli_actualizarcliente.class
+com\cobiscorp\cobis\fctrc\bli\services\impl\BLI2852_bli_crearcliente.class
