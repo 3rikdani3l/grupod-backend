@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component enabled="true" name="com.cobiscorp.cobis.fctrc.customevents.queryview.CEQV_204QV_QS38_YVG93_933_QueryViewEvent">
+        <implementation class="com.cobiscorp.cobis.fctrc.customevents.queryview.CEQV_204QV_QS38_YVG93_933_QueryViewEvent"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.api.builder.QueryViewEventBuilder"/>
+        </service>
+        <property name="queryView.id" type="String" value="QV_QS38_YVG93"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.fctrc.customevents.queryview.CEQV_204QV_QS38_YVG93_933_QueryViewEvent"/>
+        <reference name="iGridRowDeletingQV_QS38_YVG93" interface="com.cobiscorp.designer.api.customization.IGridRowDeleting" cardinality="1..1" policy="dynamic" target="(&amp;(queryView.id=QV_QS38_YVG93)(queryView.controlId=QV_QS38_YVG93))" bind="setiGridRowDeletingQV_QS38_YVG93" unbind="unsetiGridRowDeletingQV_QS38_YVG93"/>
+        <reference name="bLI1148_bli_delete_producto" interface="com.cobiscorp.designer.bli.api.IBLIExecutor" cardinality="1..1" policy="static" target="(bli.id=BLI1148_bli_delete_producto)" bind="setBLI1148_bli_delete_producto" unbind="unsetBLI1148_bli_delete_producto"/>
+    </scr:component>
+</components>

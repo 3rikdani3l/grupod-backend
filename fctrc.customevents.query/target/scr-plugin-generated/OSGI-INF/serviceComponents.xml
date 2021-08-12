@@ -9,4 +9,14 @@
         <property name="service.pid" value="com.cobiscorp.cobis.fctrc.customevents.query.Q_CLIEETTN_GA59_QueryEvent"/>
         <reference name="iExecuteQueryQ_CLIEETTN_GA59" interface="com.cobiscorp.designer.api.customization.IExecuteQuery" cardinality="1..1" policy="dynamic" target="(&amp;(query.version=1.0.0)(query.id=Q_CLIEETTN_GA59))" bind="setiExecuteQueryQ_CLIEETTN_GA59" unbind="unsetiExecuteQueryQ_CLIEETTN_GA59"/>
     </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.fctrc.customevents.query.Q_PRODCOOU_UG38_QueryEvent">
+        <implementation class="com.cobiscorp.cobis.fctrc.customevents.query.Q_PRODCOOU_UG38_QueryEvent"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.api.builder.QueryEventBuilder"/>
+        </service>
+        <property name="query.id" type="String" value="Q_PRODCOOU_UG38"/>
+        <property name="query.version" type="String" value="1.0.0"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.fctrc.customevents.query.Q_PRODCOOU_UG38_QueryEvent"/>
+        <reference name="iExecuteQueryQ_PRODCOOU_UG38" interface="com.cobiscorp.designer.api.customization.IExecuteQuery" cardinality="1..1" policy="dynamic" target="(&amp;(query.version=1.0.0)(query.id=Q_PRODCOOU_UG38))" bind="setiExecuteQueryQ_PRODCOOU_UG38" unbind="unsetiExecuteQueryQ_PRODCOOU_UG38"/>
+    </scr:component>
 </components>

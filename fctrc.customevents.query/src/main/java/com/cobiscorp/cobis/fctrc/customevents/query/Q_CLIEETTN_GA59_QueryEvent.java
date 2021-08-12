@@ -1,6 +1,6 @@
 /*
  * Archivo: Q_CLIEETTN_GA59_QueryEvent.java
- * Fecha: 12-ago-2021 1:18:09
+ * Fecha: 12/08/2021 03:40:56 AM
  *
  * Esta aplicacion es parte de los paquetes bancarios propiedad de COBISCORP.
  * Su uso no autorizado queda expresamente prohibido asi como cualquier

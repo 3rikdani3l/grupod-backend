@@ -7,6 +7,15 @@
         <property name="query.id" type="String" value="Q_CLIEETTN_GA59"/>
         <property name="query.version" type="String" value="1.0.0"/>
         <property name="service.pid" value="com.cobiscorp.cobis.fctrc.customevents.impl.query.executequery.ClienteQuery_Q_CLIEETTN_GA59"/>
-        <reference name="bliListarCliente" interface="com.cobiscorp.designer.bli.api.IBLIExecutor" cardinality="1..1" policy="static" target="(bli.id=BLI9307_bli_listarclientes)" bind="setBLIListarCliente" unbind="unsetBLIListarCliente"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.fctrc.customevents.impl.query.executequery.ProductoQuery_Q_PRODCOOU_UG38">
+        <implementation class="com.cobiscorp.cobis.fctrc.customevents.impl.query.executequery.ProductoQuery_Q_PRODCOOU_UG38"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.api.customization.IExecuteQuery"/>
+        </service>
+        <property name="query.id" type="String" value="Q_PRODCOOU_UG38"/>
+        <property name="query.version" type="String" value="1.0.0"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.fctrc.customevents.impl.query.executequery.ProductoQuery_Q_PRODCOOU_UG38"/>
+        <reference name="bilGetList" interface="com.cobiscorp.designer.bli.api.IBLIExecutor" cardinality="1..1" policy="static" target="(bli.id=BLI1852_bli_get_productos)" bind="setBil1" unbind="unsetBil1"/>
     </scr:component>
 </components>

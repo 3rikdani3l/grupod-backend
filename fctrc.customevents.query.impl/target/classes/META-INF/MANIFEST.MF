@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 TFS-BuildDate: 2020-11-20 11:37:21
 Bundle-SymbolicName: com.cobiscorp.cobis-fctrc.customevents.query.impl
  -1.0.0
-Built-By: Erik-Daniel
+Built-By: zanar
 Bundle-ManifestVersion: 2
 Bundle-Vendor: COBISCORP
 TFS-RepositoryName: https://tfs.cobiscorp.com/tfs/DefaultCollection/CO
@@ -21,6 +21,6 @@ Export-Package: com.cobiscorp.cobis.fctrc.customevents.impl.query.exec
  on.arguments,com.cobiscorp.designer.bli.api"
 Bundle-Name: com.cobiscorp.cobis-fctrc.customevents.query.impl
 Bundle-Version: 1.0.0
-Created-By: Maven Integration for Eclipse
 Build-Jdk: 1.8.0_281
+Created-By: Maven Integration for Eclipse
 
