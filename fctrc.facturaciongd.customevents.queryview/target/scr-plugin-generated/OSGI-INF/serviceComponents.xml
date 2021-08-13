@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component enabled="true" name="com.cobiscorp.cobis.fctrc.customevents.queryview.CEQV_200QV_UG60_KCB77_141_QueryViewEvent">
+        <implementation class="com.cobiscorp.cobis.fctrc.customevents.queryview.CEQV_200QV_UG60_KCB77_141_QueryViewEvent"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.api.builder.QueryViewEventBuilder"/>
+        </service>
+        <property name="queryView.id" type="String" value="QV_UG60_KCB77"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.fctrc.customevents.queryview.CEQV_200QV_UG60_KCB77_141_QueryViewEvent"/>
+        <reference name="iGridRowInsertingQV_UG60_KCB77" interface="com.cobiscorp.designer.api.customization.IGridRowInserting" cardinality="1..1" policy="dynamic" target="(&amp;(queryView.id=QV_UG60_KCB77)(queryView.controlId=QV_UG60_KCB77))" bind="setiGridRowInsertingQV_UG60_KCB77" unbind="unsetiGridRowInsertingQV_UG60_KCB77"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.fctrc.customevents.queryview.CEQV_200QV_ZC59_BRX60_258_QueryViewEvent">
+        <implementation class="com.cobiscorp.cobis.fctrc.customevents.queryview.CEQV_200QV_ZC59_BRX60_258_QueryViewEvent"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.api.builder.QueryViewEventBuilder"/>
+        </service>
+        <property name="queryView.id" type="String" value="QV_ZC59_BRX60"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.fctrc.customevents.queryview.CEQV_200QV_ZC59_BRX60_258_QueryViewEvent"/>
+        <reference name="iGridRowInsertingQV_ZC59_BRX60" interface="com.cobiscorp.designer.api.customization.IGridRowInserting" cardinality="1..1" policy="dynamic" target="(&amp;(queryView.id=QV_ZC59_BRX60)(queryView.controlId=QV_ZC59_BRX60))" bind="setiGridRowInsertingQV_ZC59_BRX60" unbind="unsetiGridRowInsertingQV_ZC59_BRX60"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.fctrc.customevents.queryview.CEQV_203QV_UG60_KCB77_862_QueryViewEvent">
+        <implementation class="com.cobiscorp.cobis.fctrc.customevents.queryview.CEQV_203QV_UG60_KCB77_862_QueryViewEvent"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.api.builder.QueryViewEventBuilder"/>
+        </service>
+        <property name="queryView.id" type="String" value="QV_UG60_KCB77"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.fctrc.customevents.queryview.CEQV_203QV_UG60_KCB77_862_QueryViewEvent"/>
+        <reference name="iGridRowUpdatingQV_UG60_KCB77" interface="com.cobiscorp.designer.api.customization.IGridRowUpdating" cardinality="1..1" policy="dynamic" target="(&amp;(queryView.id=QV_UG60_KCB77)(queryView.controlId=QV_UG60_KCB77))" bind="setiGridRowUpdatingQV_UG60_KCB77" unbind="unsetiGridRowUpdatingQV_UG60_KCB77"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.fctrc.customevents.queryview.CEQV_203QV_ZC59_BRX60_615_QueryViewEvent">
+        <implementation class="com.cobiscorp.cobis.fctrc.customevents.queryview.CEQV_203QV_ZC59_BRX60_615_QueryViewEvent"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.api.builder.QueryViewEventBuilder"/>
+        </service>
+        <property name="queryView.id" type="String" value="QV_ZC59_BRX60"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.fctrc.customevents.queryview.CEQV_203QV_ZC59_BRX60_615_QueryViewEvent"/>
+        <reference name="iGridRowUpdatingQV_ZC59_BRX60" interface="com.cobiscorp.designer.api.customization.IGridRowUpdating" cardinality="1..1" policy="dynamic" target="(&amp;(queryView.id=QV_ZC59_BRX60)(queryView.controlId=QV_ZC59_BRX60))" bind="setiGridRowUpdatingQV_ZC59_BRX60" unbind="unsetiGridRowUpdatingQV_ZC59_BRX60"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.fctrc.customevents.queryview.CEQV_204QV_UG60_KCB77_738_QueryViewEvent">
+        <implementation class="com.cobiscorp.cobis.fctrc.customevents.queryview.CEQV_204QV_UG60_KCB77_738_QueryViewEvent"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.api.builder.QueryViewEventBuilder"/>
+        </service>
+        <property name="queryView.id" type="String" value="QV_UG60_KCB77"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.fctrc.customevents.queryview.CEQV_204QV_UG60_KCB77_738_QueryViewEvent"/>
+        <reference name="iGridRowDeletingQV_UG60_KCB77" interface="com.cobiscorp.designer.api.customization.IGridRowDeleting" cardinality="1..1" policy="dynamic" target="(&amp;(queryView.id=QV_UG60_KCB77)(queryView.controlId=QV_UG60_KCB77))" bind="setiGridRowDeletingQV_UG60_KCB77" unbind="unsetiGridRowDeletingQV_UG60_KCB77"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.fctrc.customevents.queryview.CEQV_204QV_ZC59_BRX60_209_QueryViewEvent">
+        <implementation class="com.cobiscorp.cobis.fctrc.customevents.queryview.CEQV_204QV_ZC59_BRX60_209_QueryViewEvent"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.api.builder.QueryViewEventBuilder"/>
+        </service>
+        <property name="queryView.id" type="String" value="QV_ZC59_BRX60"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.fctrc.customevents.queryview.CEQV_204QV_ZC59_BRX60_209_QueryViewEvent"/>
+        <reference name="iGridRowDeletingQV_ZC59_BRX60" interface="com.cobiscorp.designer.api.customization.IGridRowDeleting" cardinality="1..1" policy="dynamic" target="(&amp;(queryView.id=QV_ZC59_BRX60)(queryView.controlId=QV_ZC59_BRX60))" bind="setiGridRowDeletingQV_ZC59_BRX60" unbind="unsetiGridRowDeletingQV_ZC59_BRX60"/>
+    </scr:component>
+</components>

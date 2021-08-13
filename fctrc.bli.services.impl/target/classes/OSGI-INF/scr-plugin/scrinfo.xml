@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component enabled="true" name="com.cobiscorp.cobis.fctrc.bli.services.impl.BLI2578_bli_crearproducto">
+        <implementation class="com.cobiscorp.cobis.fctrc.bli.services.impl.BLI2578_bli_crearproducto"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.bli.api.IBLIExecutor"/>
+        </service>
+        <property name="task.module" type="String" value="FCTRC" private="false"/>
+        <property name="bli.id" type="String" value="BLI2578_bli_crearproducto" private="false"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.fctrc.bli.services.impl.BLI2578_bli_crearproducto" private="false"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.fctrc.bli.services.impl.BLI2852_bli_crearcliente">
+        <implementation class="com.cobiscorp.cobis.fctrc.bli.services.impl.BLI2852_bli_crearcliente"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.bli.api.IBLIExecutor"/>
+        </service>
+        <property name="task.module" type="String" value="FCTRC" private="false"/>
+        <property name="bli.id" type="String" value="BLI2852_bli_crearcliente" private="false"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.fctrc.bli.services.impl.BLI2852_bli_crearcliente" private="false"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.fctrc.bli.services.impl.BLI3000_bli_eliminarproducto">
+        <implementation class="com.cobiscorp.cobis.fctrc.bli.services.impl.BLI3000_bli_eliminarproducto"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.bli.api.IBLIExecutor"/>
+        </service>
+        <property name="task.module" type="String" value="FCTRC" private="false"/>
+        <property name="bli.id" type="String" value="BLI3000_bli_eliminarproducto" private="false"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.fctrc.bli.services.impl.BLI3000_bli_eliminarproducto" private="false"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.fctrc.bli.services.impl.BLI3200_bli_actualizarcliente">
+        <implementation class="com.cobiscorp.cobis.fctrc.bli.services.impl.BLI3200_bli_actualizarcliente"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.bli.api.IBLIExecutor"/>
+        </service>
+        <property name="task.module" type="String" value="FCTRC" private="false"/>
+        <property name="bli.id" type="String" value="BLI3200_bli_actualizarcliente" private="false"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.fctrc.bli.services.impl.BLI3200_bli_actualizarcliente" private="false"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.fctrc.bli.services.impl.BLI5429_bli_listarproductos">
+        <implementation class="com.cobiscorp.cobis.fctrc.bli.services.impl.BLI5429_bli_listarproductos"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.bli.api.IBLIExecutor"/>
+        </service>
+        <property name="task.module" type="String" value="FCTRC" private="false"/>
+        <property name="bli.id" type="String" value="BLI5429_bli_listarproductos" private="false"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.fctrc.bli.services.impl.BLI5429_bli_listarproductos" private="false"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.fctrc.bli.services.impl.BLI5567_bli_eliminarcliente">
+        <implementation class="com.cobiscorp.cobis.fctrc.bli.services.impl.BLI5567_bli_eliminarcliente"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.bli.api.IBLIExecutor"/>
+        </service>
+        <property name="task.module" type="String" value="FCTRC" private="false"/>
+        <property name="bli.id" type="String" value="BLI5567_bli_eliminarcliente" private="false"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.fctrc.bli.services.impl.BLI5567_bli_eliminarcliente" private="false"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.fctrc.bli.services.impl.BLI8917_bli_actualizarproducto">
+        <implementation class="com.cobiscorp.cobis.fctrc.bli.services.impl.BLI8917_bli_actualizarproducto"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.bli.api.IBLIExecutor"/>
+        </service>
+        <property name="task.module" type="String" value="FCTRC" private="false"/>
+        <property name="bli.id" type="String" value="BLI8917_bli_actualizarproducto" private="false"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.fctrc.bli.services.impl.BLI8917_bli_actualizarproducto" private="false"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.fctrc.bli.services.impl.BLI9307_bli_listarclientes">
+        <implementation class="com.cobiscorp.cobis.fctrc.bli.services.impl.BLI9307_bli_listarclientes"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.bli.api.IBLIExecutor"/>
+        </service>
+        <property name="task.module" type="String" value="FCTRC" private="false"/>
+        <property name="bli.id" type="String" value="BLI9307_bli_listarclientes" private="false"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.fctrc.bli.services.impl.BLI9307_bli_listarclientes" private="false"/>
+    </scr:component>
+</components>
